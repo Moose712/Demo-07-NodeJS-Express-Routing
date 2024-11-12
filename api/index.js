@@ -11,6 +11,10 @@ app.listen(PORT, () => {
 
 //Homepage
 app.get('/', (request, response) => {
+    response.send('<h1>Welcome to the API: Mark Gervacio</h1>');
+  });
+
+app.get('/', (request, response) => {
     response.status(200).json({ message: 'Welcome to the API: Mark Gervacio' });
     
 })
