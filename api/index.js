@@ -15,6 +15,9 @@ app.get('/', (request, response) => {
     response.send(`<h1>API Homepage</h1>`);
     response.send(`<h2>Mark Gervacio</h2>`);
 })
+app.get('/', (request, response) => {
+    response.send(`<h2>Mark Gervacio</h2>`);
+})
 
 // Customers
 const customerRouter = require('./routes/customer');
