@@ -15,7 +15,7 @@ app.get('/', (request, response) => {
     response.send(`<h1>API Homepage</h1>`);
 })
 app.get('/', (request, response) => {
-    response.send(`<h2>Mark Gervacio</h2>`);
+    response.send(`<h1>Mark Gervacio</h1>`);
 })
 
 // Customers
